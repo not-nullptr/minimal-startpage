@@ -6,7 +6,7 @@ function App() {
 			<div className="container">
 				<h1>welcome back!</h1>
 				<div>missed me? i know {"<3"}</div>
-				<input
+				{/* <input
 					onKeyUp={(e) => {
 						if (e.key !== "Enter") return;
 						e.preventDefault();
@@ -16,7 +16,7 @@ function App() {
 					}}
 					type="search"
 					placeholder="search google for..."
-				/>
+				/> */}
 			</div>
 		</div>
 	);
